@@ -21,7 +21,7 @@ Eintrag in der Konfigurationsdatei:
 
 .. code:: php
 
-   $this--> aMultishopArticleFields = array(\"OXPRICE\",\"OXPRICEA\",\"OXPRICEB\",\"OXPRICEC\",\"OXUPDATEPRICE\",\"OXUPDATEPRICEA\",\"OXUPDATEPRICEB\",\"OXUPDATEPRICEC\",\"OXUPDATEPRICETIME\", \"OXSHORTDESC\");
+   $this-> aMultishopArticleFields = array("OXPRICE","OXPRICEA","OXPRICEB","OXPRICEC","OXUPDATEPRICE","OXUPDATEPRICEA","OXUPDATEPRICEB","OXUPDATEPRICEC","OXUPDATEPRICETIME", "OXSHORTDESC");
 
 In der Datenbanktabelle oxfield2shops muss für OXSHORTDESC ein Eintrag erstellt werden.
 
